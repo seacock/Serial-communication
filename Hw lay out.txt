@@ -1,0 +1,11 @@
+The right COM to select is the one shown in drawing.
+Connect STM32L552 to Laptop as shown in drawing. Flash Base into STM32L552. Launch ComPort; File; Com Port. In the Dialog push Button Search: Combobox will be 
+populated with COM ports. Select the right COM and wait 1 sec: Edit gets the message from L552. Repeat the last: select combo and wait 1 sec...again and again.
+Close dialog. 
+
+ComPort project is without .vs file: too big.
+Documentation:
+MSDN ,
+http://members.ee.net/brey/Serial.pdf ,
+https://shawnhymel.com/1795/getting-started-with-stm32-nucleo-usb-virtual-com-port/ ,
+https://damogranlabs.com/2018/02/stm32-usb-cdc/ .
